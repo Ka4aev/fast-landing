@@ -1,0 +1,337 @@
+@media (max-width: 1580px){
+    .header-nav{
+        display: none;
+    }
+    .burger-menu{
+        display: inherit;
+    }
+    .header-content{
+        justify-content: space-between;
+        padding: 0 2vw;
+    }
+    .header-bottom{
+        padding: 74px 2vw 86px 2vw;
+    }
+    .caviar-product{
+        padding: 0 2vw;
+    }
+    .caviar-product__content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: normal;
+        gap: 0;
+        flex-direction: column;
+    }
+    .caviar-about__item{
+        width: 44.698vw;
+    }
+    .caviar-product__our{
+        width: 80.292vw;
+        text-align: center;
+    }
+    .caviar-product__dignities{
+        width: 80.0625vw;
+        text-align: center;
+    }
+    .caviar-product__grid{
+        display: grid;
+        margin: 100px auto;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        grid-template: repeat(2,1fr) / repeat(2,1fr);
+        width: 60vw;
+    }
+    .container{
+        max-width: 80vw;
+    }
+    .caviar-about__content{
+        gap: 80px;
+        flex-direction: column;
+        align-items: center;
+        justify-content:normal;
+    }
+    .caviar-about__topic{
+        text-align: center;
+        width: 100%;
+    }
+    .certificates-about{
+        justify-content: normal;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .certificates-about__topic{
+        text-align: center;
+        width: 100%;
+    }
+    .certificates-about__info{
+        width: 100%;
+        text-align: center;
+    }
+    .certificates-about__grid{
+        width: 10vw;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template: repeat(3,1fr) / repeat(1,1fr);
+        gap: 20px;
+    }
+    .work-conditions__content{
+        gap: 30px;
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+    }
+    .work-conditions__info{
+        width: 67vw;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .work-conditions__title{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    .work-conditions__images{
+        display: flex;
+        gap: 23px;
+        flex-direction: column;
+    }
+    .work-delivery__title{
+        text-align: center;
+        width: 100%;
+
+    }
+    .work-delivery__top{
+        justify-content: normal;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .work-delivery__bottom{
+        display: grid;
+        grid-template: repeat(3,1fr) / repeat(1,1fr);
+        row-gap: 30px;
+        margin: 0 auto;
+    }
+    .restaurants-grid{
+        display: grid;
+        grid-template: repeat(4,1fr) / repeat(1,1fr);
+        gap: 30px ;
+    }
+    .about-comments{
+
+        background:
+                url("../images/about/caviar-background.png") top 216px left 105px no-repeat,
+                url("../images/about/decor-about-comments.svg") top 360px left 138px no-repeat;
+        background-size: 0, auto;
+    }
+    .about-comments__speaking{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-comments__content{
+        gap: 50px;
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .about-serving__top{
+        display: flex;
+        justify-content: normal;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-serving__info{
+        width: 100%;
+        text-align: center;
+    }
+    .about-serving__bottom{
+        grid-template: repeat(3, 1fr) / repeat(1,1fr);
+        margin: 0 auto;
+    }
+    .questions-lists{
+        width: 80.708vw;
+    }
+    .form-block{
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+    }
+    .form-info{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .contacts-block{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contacts-info{
+        align-items: center;
+        width: 100%;
+    }
+    .footer-list{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .header-top__phone{
+        display: none;
+    }
+    .header-bottom_title{
+        font-size: 6.604vw;
+    }
+    .header-bottom__text{
+        line-height: 1.33333;
+    }
+    .caviar-product__grid{
+        height: auto;
+        margin: 100px auto;
+        grid-template: repeat(4,1fr) / repeat(1,1fr);
+        width: 40vw;
+    }
+    .caviar-product__about{
+        height: auto;
+    }
+    .header-content{
+        padding: 0;
+        justify-content: center;
+    }
+    .caviar-about_grid{
+        display: grid;
+        grid-template: repeat(4,2fr) / repeat(1,2fr);
+        gap: 40px;
+        margin: 0 auto;
+    }
+    .caviar-about__item{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .certificates-about__item{
+        width: 100%;
+        height: 593px;
+    }
+    .work-conditions__title{
+        font-size: 8.604vw;
+    }
+    .work-conditions__images{
+        width: 80vw;
+    }
+    .work-delivery__title{
+        font-size: 5.604vw;
+       width: 80vw;
+        margin: 0 auto;
+    }
+    .work-delivery__img{
+        display: none;
+    }
+    .work-delivery__blocks{
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+    }
+    .work-delivery__border{
+        width: 100%;
+        padding-top: 35px ;
+        padding-left: 0;
+        border-left:none ;
+        border-top: 1px solid #de9c3602;
+    }
+    .work-delivery__bottom img{
+        width: 80vw;
+    }
+    .restaurants-title{
+        width: 100%;
+        font-size: 6.604vw;
+        text-align: center;
+    }
+    .restaurants-item{
+        width: 100%;
+        height: auto;
+    }
+    .restaurants-images{
+        width: 100%;
+        height:100%;
+    }
+
+    .restaurants-item__theme{
+        gap: 30px;
+        font-size: 35px;
+    }
+    .restaurants-item__text{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .restaurants-item__bottom{
+        height: 250px;
+    }
+    .about-comments__text{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .about-comments__item{
+        border: 1px solid rgba(200, 164, 100, 0.5);
+        border-radius: 40px;
+        width: 100%;
+        height: auto;
+        padding: 40px 51px;
+        background: url("../images/about/brackets-about-comments.svg") top 23px right 33px no-repeat;
+    }
+    .about-serving__img{
+        width: 100%;
+    }
+    .about-serving__bottom img{
+       width: 80vw;
+    }
+    .form-title{
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .form-forms{
+       flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+    }
+    .form-next{
+        width: 100%;
+    }
+    .form-textarea{
+        width: 100%;
+    }
+    .form{
+        padding: 100px 2vw;
+    }
+    .contacts-title{
+        font-size: 6.604vw;
+        text-align: center;
+    }
+    .contacts-img{
+        width: 100%;
+    }
+    .footer-top{
+        justify-content: normal;
+        gap: 25px;
+        flex-direction: column;
+    }
+}
